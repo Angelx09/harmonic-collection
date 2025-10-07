@@ -23,7 +23,7 @@ body{
 font-family: "meursault-variable",sans-serif;
 font-size:30px;
 text-align: center;
-margin: auto;
+margin: 0 auto;
 font-style: normal;
 background:rgb(255, 161, 177);
 border-radius:20px;
@@ -38,7 +38,7 @@ font-style: normal;
 background:rgb(255, 161, 177);
 border-radius:20px;
 padding: 6px;
-margin: auto;
+margin: 0 auto;
 }
 .next:hover {background-color: #ffc4c4}
 .carousel img{

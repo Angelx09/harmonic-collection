@@ -22,10 +22,10 @@ body{
   font-size: 200%;
   word-spacing: 600px;
 }
+.AhBeiBei:hover{background-color:#ffc4c4;}
 .back{
 font-family: "meursault-variable",sans-serif;
 font-size:30px;
-margin: auto;
 font-style: normal;
 background:rgb(255, 161, 177);
 border-radius:20px;
