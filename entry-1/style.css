@@ -1,0 +1,68 @@
+@import url("https://use.typekit.net/tjw7clx.css");
+@import url("https://use.typekit.net/tjw7clx.css");
+body{
+  background-color: rgb(253, 210, 210);
+}
+
+.top-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "alphabet-soup-pro","meursault-variable",sans-serif;
+  color: black;
+  font-style: normal;
+  text-align: center;
+  font-size: 200%;
+  word-spacing: 600px;
+  background-color: rgb(249, 244, 223);
+  height: 100px;
+  margin: 10px 1px;
+  padding: 15px 15px;
+}
+.back{
+font-family: "meursault-variable",sans-serif;
+font-size:30px;
+text-align: center;
+margin: auto;
+font-style: normal;
+background:rgb(255, 161, 177);
+border-radius:20px;
+padding: 6px;
+}
+.back:hover {background-color: #ffc4c4}
+.next{
+font-family: "meursault-variable",sans-serif;
+font-size:30px;
+text-align: right;
+font-style: normal;
+background:rgb(255, 161, 177);
+border-radius:20px;
+padding: 6px;
+margin: auto;
+}
+.next:hover {background-color: #ffc4c4}
+.carousel img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0;
+}
+.pillow1 img{
+  height: 400px;
+  position: relative;
+  bottom: 1000px;
+  right: 170px;
+}
+.pillow2 img{
+  height: 400px;
+  position: relative;
+  bottom: 1000px;
+  left: 330px;
+}
+.pillow3 img{
+  height: 400px;
+  position: relative;
+  bottom: 1200px;
+  right: 200px;
+}
+
