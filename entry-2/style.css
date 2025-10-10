@@ -3,17 +3,20 @@
 body{
   background-image: linear-gradient(to right, #effac4, #1e7de9); /* Orange to pink, left to right */
 }
+.icon{
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 .top-header{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: rgb(214, 201, 227);
   height: 100px;
   margin: 10px 1px;
   padding: 15px 15px;
 }
 .AhBeiBei{
-  margin: 0 auto;
   font-family: "coquette-bold","giulia", sans-serif;
   font-weight:900px;
   color: white;
@@ -26,6 +29,7 @@ body{
 .back{
 font-family: "meursault-variable",sans-serif;
 font-size:30px;
+margin: 20px;
 font-style: normal;
 background:rgb(255, 161, 177);
 border-radius:20px;
@@ -35,18 +39,11 @@ padding: 6px;
 .next{
 font-family: "meursault-variable",sans-serif;
 font-size:30px;
-text-align: right;
+margin:20px auto;
 font-style: normal;
 background:rgb(255, 161, 177);
 border-radius:20px;
 padding: 6px;
-margin: 0 auto;
 }
 .next:hover {background-color: #ffc4c4}
-.bgicon{
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  margin: 0 auto;
-}
 
