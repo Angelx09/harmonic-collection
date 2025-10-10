@@ -9,11 +9,6 @@ body{
   flex-direction: row;
   justify-content: space-around;
   font-family: "alphabet-soup-pro","meursault-variable",sans-serif;
-  color: black;
-  font-style: normal;
-  text-align: center;
-  font-size: 200%;
-  word-spacing: 600px;
   background-color: rgb(249, 244, 223);
   height: 100px;
   margin: 10px 1px;
@@ -25,7 +20,7 @@ body{
   color: black;
   font-style: normal; 
   text-align: center;
-  font-size: 100%;
+  font-size: 70px;
   word-spacing: 600px;
 }
 .back{

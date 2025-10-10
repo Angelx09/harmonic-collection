@@ -10,7 +10,7 @@ body{
 }
 .top-header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: rgb(214, 201, 227);
   height: 100px;
   margin: 10px 1px;
@@ -22,7 +22,7 @@ body{
   color: white;
   font-style: normal; 
   text-align: center;
-  font-size: 200%;
+  font-size: 70px;
   word-spacing: 600px;
 }
 .AhBeiBei:hover{background-color:#ffc4c4;}
