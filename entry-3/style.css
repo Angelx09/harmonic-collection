@@ -50,3 +50,32 @@ padding: 6px;
 .table{
     color:azure;
 }
+.table{
+  background-color:rgb(123, 60, 12);
+  width:auto;
+  height:300px;
+}
+.divide{
+  background-color:rgb(254, 254, 174);
+  width:150px;
+  height:190px;
+  position:relative;
+  top:-250px;
+  right:-25px;
+}
+.divide_1{
+  background-color:rgb(254, 254, 174);
+  width:150px;
+  height:190px;
+  position:relative;
+  top:-440px;
+  right:-235px;
+}
+.divide_2{
+  background-color:rgb(254, 254, 174);
+  width:150px;
+  height:190px;
+  position:relative;
+  top:-630px;
+  right:-450px;
+}
