@@ -28,30 +28,31 @@ body{
 }
 .AhBeiBei:hover{background-color:#ffc4c4;}
 .back{
-font-family: "meursault-variable",sans-serif;
-font-size:30px;
-margin: 20px;
-font-style: normal;
-background:rgb(255, 161, 177);
-border-radius:20px;
-padding: 6px;
+  font-family: "meursault-variable",sans-serif;
+  font-size:30px;
+  margin: 20px;
+  font-style: normal;
+  background:rgb(255, 161, 177);
+  border-radius:20px;
+  padding: 6px;
 }
 .back:hover {background-color: #ffc4c4}
 .next{
-font-family: "meursault-variable",sans-serif;
-font-size:30px;
-margin:20px auto;
-font-style: normal;
-background:rgb(255, 161, 177);
-border-radius:20px;
-padding: 6px;
+  font-family: "meursault-variable",sans-serif;
+  font-size:30px;
+  margin:20px auto;
+  font-style: normal;
+  background:rgb(255, 161, 177);
+  border-radius:20px;
+  padding: 6px;
 }
 .next:hover {background-color: #ffc4c4}
 .table{
     color:azure;
 }
 .table{
-  background-color:rgb(123, 60, 12);
+  position:relative;
+  background-color:rgb(199, 101, 26);
   width:auto;
   height:300px;
 }
@@ -78,4 +79,8 @@ padding: 6px;
   position:relative;
   top:-630px;
   right:-450px;
+}
+.backdrop{
+  max-width: 100%;
+  height:auto;
 }

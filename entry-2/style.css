@@ -3,10 +3,10 @@
 body{
   background-image: linear-gradient(to right, #effac4, #1e7de9); /* Orange to pink, left to right */
 }
-.icon{
-  max-width: 100%;
+.con{
+  width: 1px;
   height: auto;
-  margin: 0 auto;
+  margin: 10px;
 }
 .top-header{
   display: flex;
@@ -46,4 +46,3 @@ border-radius:20px;
 padding: 6px;
 }
 .next:hover {background-color: #ffc4c4}
-
