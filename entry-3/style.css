@@ -48,37 +48,37 @@ body{
 }
 .next:hover {background-color: #ffc4c4}
 .table{
-    color:azure;
+    color:rgb(62, 72, 72);
 }
 .table{
   position:relative;
-  background-color:rgb(199, 101, 26);
+  background-color:rgb(158, 83, 25);
   width:auto;
-  height:300px;
+  height:1800px;
 }
 .divide{
   background-color:rgb(254, 254, 174);
-  width:150px;
-  height:190px;
+  width:650px;
+  height:400px;
   position:relative;
-  top:-250px;
+  top:-1600px;
   right:-25px;
 }
 .divide_1{
   background-color:rgb(254, 254, 174);
-  width:150px;
-  height:190px;
+  width:650px;
+  height:400px;
   position:relative;
-  top:-440px;
-  right:-235px;
+  top:-1540px;
+  right:-25px;
 }
 .divide_2{
   background-color:rgb(254, 254, 174);
-  width:150px;
-  height:190px;
+  width:650px;
+  height:400px;
   position:relative;
-  top:-630px;
-  right:-450px;
+  top:-1480px;
+  right:-25px;
 }
 .backdrop{
   max-width: 100%;
