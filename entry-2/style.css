@@ -27,6 +27,9 @@ body{
   font-size: 70px;
   word-spacing: 600px;
 }
+.Ah{
+  
+}
 .AhBeiBei:hover{background-color:#ffc4c4;}
 .back{
 font-family: "meursault-variable",sans-serif;
@@ -49,7 +52,7 @@ padding: 6px;
 }
 .next:hover {background-color: #ffc4c4}
 .bright img{
-  width:150px;
+  width:130px;
   height:250px;
   position:relative;
   top:-3000px;
