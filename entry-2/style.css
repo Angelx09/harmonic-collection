@@ -46,3 +46,10 @@ border-radius:20px;
 padding: 6px;
 }
 .next:hover {background-color: #ffc4c4}
+.bright{
+  position:relative;
+  width:1px;
+  height:1px;
+  top:-4950px;
+  right:-850px;
+}

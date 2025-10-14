@@ -60,13 +60,19 @@ margin: 20px;
 .pillow2 img{
   height: 400px;
   position: relative;
-  bottom: 1000px;
-  left: 330px;
+  bottom: 1100px;
+  left: 350px;
 }
 .pillow3 img{
   height: 400px;
   position: relative;
   bottom: 1200px;
   right: 200px;
+}
+.pillow4 img{
+  height: 400px;
+  position: relative;
+  bottom: 2600px;
+  right: -500px;
 }
 
