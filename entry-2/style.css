@@ -67,7 +67,7 @@ padding: 6px;
 }
 .say{
   position:absolute;
-  bottom:-700px;
+  bottom:-800px;
   z-index: -1;
 }
 
