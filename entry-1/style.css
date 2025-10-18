@@ -60,26 +60,66 @@ margin: 20px auto;
   position:absolute;
   bottom:-780px;
   left:-190px;
+  z-index:1;
 }
 .pillow2{
   position:absolute;
   bottom:-450px;
   right:-200px;
+  z-index:1;
 }
 .pillow4{
   position:absolute;
   bottom:-1500px;
   left:-200px;
+  z-index:1;
 }
 .pillow3{
   position: absolute;
   bottom:-1200px;
   right:-190px;
+  z-index:1;
 }
 .poem{
   font-family: "giulia", sans-serif;
   font-weight:200px;
   color: rgb(255, 255, 255);
   font-style: normal; 
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.dim{
+  position:absolute;
+  bottom:-400px;
+  left:190px;
+}
+.night{
+  position:absolute;
+  bottom:-550px;
+  left:390px;
+}
+.dreams{
+  position:absolute;
+  bottom:-600px;
+  left:290px;
+}
+.whisper{
+  position:absolute;
+  bottom:-800px;
+  left:190px;
+}
+.starry{
+  position:absolute;
+  bottom:-860px;
+  left:100px;
+}
+.embrace{
+  position:absolute;
+  bottom:-1100px;
+  left:90px;
+}
+.space{
+  position:absolute;
+  bottom:-1160px;
+  left:200px;
 }

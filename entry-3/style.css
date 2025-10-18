@@ -57,19 +57,44 @@ color:rgb(62, 72, 72);
   max-width: 100%;
   height:50%;
 }
+.comment{
+  background-color: rgb(188, 193, 197);
+  width:50%;
+  height:200px;
+  border-radius:30px;
+  position:absolute;
+  left:300px;
+  bottom:-300px;
+}
 .table{
   display:flex;
   position:relative;
   background-color:rgb(158, 83, 25);
   max-width:80vw;
-  height:100vw;
+  height:900px;
   border-radius: 40px;
   justify-content: space-around;
-  right:-100px;
+  right:-50px;
   top:-100px;
 }
 .div{
   background-color: rgb(255, 243, 196);
   width:150px;
   height:150px;
+}
+.mi img{
+  position:absolute;
+  height:35%;
+  width:90%;
+  left:25px;
+  bottom:480px;
+  border-radius: 20px;
+}
+.c img{
+  position:absolute;
+  height:35%;
+  width:90%;
+  left:25px;
+  bottom:100px;
+  border-radius: 20px;
 }
