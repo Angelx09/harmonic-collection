@@ -65,3 +65,17 @@ padding: 6px;
   font-style: normal; 
   font-size: 25px;
 }
+.say{
+  position:absolute;
+  bottom:-700px;
+  z-index: -1;
+}
+
+.spotify-song{
+  position: absolute;
+  width: 40%; /* Adjust width as needed */
+  margin: 20px auto; /* Center the player */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px; /* Match iframe border-radius */
+  bottom:50px;
+}

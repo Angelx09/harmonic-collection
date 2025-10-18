@@ -52,6 +52,12 @@ margin: 20px auto;
 }
 .next:hover {background-color: #ffc4c4}
 .container{
+  display:inline-flex;
+  padding-top:0px;
+  padding-bottom: 0px;
+  margin-top: 2 vh;
+  margin-bottom: 3vh;
+  padding-left: 1.5vh;
   position:absolute;
   max-width: 100%;
   height: auto;
@@ -139,3 +145,4 @@ margin: 20px auto;
   border:none;
   background:none;
 }
+

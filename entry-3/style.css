@@ -84,17 +84,17 @@ color:rgb(62, 72, 72);
 }
 .mi img{
   position:absolute;
-  height:35%;
-  width:90%;
-  left:25px;
-  bottom:480px;
+  height:45%;
+  width:80%;
+  left:65px;
+  bottom:450px;
   border-radius: 20px;
 }
 .c img{
   position:absolute;
-  height:35%;
-  width:90%;
-  left:25px;
-  bottom:100px;
+  height:45%;
+  width:80%;
+  left:65px;
+  bottom:30px;
   border-radius: 20px;
 }
