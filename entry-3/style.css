@@ -63,24 +63,24 @@ color:rgb(62, 72, 72);
   height:200px;
   border-radius:30px;
   position:absolute;
-  left:300px;
+  left:350px;
   bottom:-300px;
+  color:rgb(66, 70, 73);
+  font-family: 'Courier New', Courier, monospace;
+  font-size:20px;
+  line-height:50px;
+  text-indent:20px;
 }
 .table{
   display:flex;
   position:relative;
   background-color:rgb(158, 83, 25);
-  max-width:80vw;
+  width:100%;
   height:900px;
   border-radius: 40px;
   justify-content: space-around;
-  right:-50px;
+  right:-2px;
   top:-100px;
-}
-.div{
-  background-color: rgb(255, 243, 196);
-  width:150px;
-  height:150px;
 }
 .mi img{
   position:absolute;

@@ -50,3 +50,7 @@ body{
   padding: 6px;
 }
 .next:hover {background-color: #ffc4c4}
+.music img{
+  width:100%;
+  height:50%;
+}
