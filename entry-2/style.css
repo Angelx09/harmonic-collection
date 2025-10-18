@@ -1,5 +1,5 @@
  @import url("https://use.typekit.net/tjw7clx.css");
- @import url("https://use.typekit.net/tjw7clx.css");
+ 
 body{
   background-image: linear-gradient(to right, #effac4, #1e7de9); /* Orange to pink, left to right */
 }
@@ -18,9 +18,6 @@ body{
   padding: 15px 15px;
 }
 .Ah{
-  padding:0;
-  border:none;
-  background:none;
   font-family: "coquette-bold","giulia", sans-serif;
   font-weight:900px;
   color: white;
@@ -28,6 +25,9 @@ body{
   text-align: center;
   font-size: 70px;
   word-spacing: 600px;
+  padding:0;
+  border:none;
+  background:none;
 }
 .Ah:hover{background-color:#ffc4c4;}
 .back{
@@ -52,8 +52,9 @@ padding: 6px;
 .next:hover {background-color: #ffc4c4}
 .bright img{
   position:absolute;
-  height:350px;
+  height:250px;
+  width:130px;
   position:fixed;
-  bottom:250px;
-  right:100px;
+  bottom:260px;
+  right:120px;
 }
