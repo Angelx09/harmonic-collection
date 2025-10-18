@@ -8,7 +8,6 @@ body{
   max-width: 100%;
   height: auto;
   object-fit: cover;
-  margin: 0;
 }
 .top-header{
   display: flex;
@@ -18,7 +17,10 @@ body{
   margin: 10px 1px;
   padding: 15px 15px;
 }
-.AhBeiBei{
+.Ah{
+  padding:0;
+  border:none;
+  background:none;
   font-family: "coquette-bold","giulia", sans-serif;
   font-weight:900px;
   color: white;
@@ -27,14 +29,11 @@ body{
   font-size: 70px;
   word-spacing: 600px;
 }
-.Ah{
-  
-}
-.AhBeiBei:hover{background-color:#ffc4c4;}
+.Ah:hover{background-color:#ffc4c4;}
 .back{
 font-family: "meursault-variable",sans-serif;
 font-size:30px;
-margin: 20px;
+margin: 20px auto;
 font-style: normal;
 background:rgb(255, 161, 177);
 border-radius:20px;
@@ -52,9 +51,9 @@ padding: 6px;
 }
 .next:hover {background-color: #ffc4c4}
 .bright img{
-  width:130px;
-  height:250px;
-  position:relative;
-  top:-3000px;
-  right:-450px;
+  position:absolute;
+  height:350px;
+  position:fixed;
+  bottom:250px;
+  right:100px;
 }
