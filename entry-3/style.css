@@ -76,6 +76,7 @@ color:rgb(62, 72, 72);
   font-size:30px;
   text-align: center;
 }
+
 .table{
   display:flex;
   flex-direction: column;
