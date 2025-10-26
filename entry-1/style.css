@@ -51,24 +51,13 @@ padding: 6px;
 margin: 20px auto;
 }
 .next:hover {background-color: #ffc4c4}
-.container{
-  display:inline-flex;
-  padding-bottom: 0px;
-  padding-left: 1.5vh;
-  max-width: 100vh;
-}
-
-.container{
+div.button{
   position:relative;
-  width:30%;
+  bottom:220px;
+  right:-430px;
+  z-index: 1;
 }
-.door{
-  position:relative;
-  width: 30%;
-  padding:0;
-  border:none;
-  background:none;
-  z-index:1;
+.button img{
+  width:16%;
 }
-
 
