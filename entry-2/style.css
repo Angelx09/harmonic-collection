@@ -61,20 +61,21 @@ padding: 6px;
 .poem{
   font-family: "giulia", sans-serif;
   color: rgb(69, 60, 60);
+  font-kerning: auto;
   font-style: normal; 
-  font-size: 25px;
+  font-size: 40px;
 }
 .say{
-  position:absolute;
-  top:950px;
+  position:relative;
+  bottom:4050px;
   z-index: 1;
 }
 
 .spotify-song{
-  position: absolute;
-  width: 40%; 
-  margin: 20px auto; 
+  position: relative;
+  height: 90%; 
+  margin: auto 50px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 12px; 
-  bottom:50px;
+  bottom:200px;
 }

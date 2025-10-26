@@ -53,43 +53,14 @@ margin: 20px auto;
 .next:hover {background-color: #ffc4c4}
 .container{
   display:inline-flex;
-  padding-top:0px;
   padding-bottom: 0px;
-  margin-top: 2 vh;
-  margin-bottom: 3vh;
   padding-left: 1.5vh;
-  position:absolute;
-  max-width: 100%;
-  height: auto;
-}
-.pillow1{
-  position:relative;
-  bottom:2090px;
-  left:490px;
-  z-index:1;
-}
-.pillow2{
-  position:relative;
-  bottom:2250px;
-  right:205px;
-  z-index:1;
-}
-.pillow4{
-  position:relative;
-  bottom:2300px;
-  left:550px;
-  z-index:1;
-}
-.pillow3{
-  position: relative;
-  bottom:2200px;
-  right:269;
-  z-index:1;
+  max-width: 100vh;
 }
 
 .container{
   position:relative;
-  width:50%;
+  width:30%;
 }
 .door{
   position:relative;

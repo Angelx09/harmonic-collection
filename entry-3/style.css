@@ -57,26 +57,18 @@ color:rgb(62, 72, 72);
   max-width: 100%;
   height:50%;
 }
-.comment{
-  background-color: rgb(188, 193, 197);
-  width:50%;
-  height:200px;
-  border-radius:30px;
-  position:absolute;
-  left:350px;
-  bottom:-300px;
-  color:rgb(66, 70, 73);
-  font-family: 'Courier New', Courier, monospace;
-  font-size:20px;
-  line-height:50px;
-  text-indent:20px;
-}
+
 .ted{
   font-family: "giulia",sans-serif;
-  font-size:30px;
+  font-size:40px;
   text-align: center;
 }
-
+.comment{
+  position:relative;
+  bottom:2500px;
+  left:700px;
+  width:200px;
+}
 .table{
   display:flex;
   flex-direction: column;
@@ -90,17 +82,24 @@ color:rgb(62, 72, 72);
 }
 .mi{
   width:60%;
-  margin:20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .co{
   width:60%;
   padding:20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .c{
   width:60%;
-   padding:20px;
+  padding:20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .ba{
   width:60%;
   padding:20px;
+  margin-left: auto;
+  margin-right: auto;
 }
