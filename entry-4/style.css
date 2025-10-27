@@ -51,13 +51,62 @@ body{
 .btn.main:hover {
   color: rgb(255, 161, 177);
 }
+/*icon*/
+.sound-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 80px 0;
+}
+
+.icon {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
 
 .music img{
   width:100%;
   height:50%;
 }
-.rain{
-  position:absolute;
-  height:20%;
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
+.button a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-family: "meursault-variable", sans-serif;
+  background: rgb(255, 161, 177);
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 28px;
+  transition: background-color 0.2s ease;
+}
+
+.button a:hover {
+  background-color: #ffc4c4;
+}
+
+.button img {
+  width: 28px;
+  height: auto;
+}
