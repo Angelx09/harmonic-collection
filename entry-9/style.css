@@ -1,7 +1,9 @@
 @import url("https://use.typekit.net/tjw7clx.css");
 
 body{
-  background-image: linear-gradient(to right, #fdddfa, #ffc567); /* Orange to pink, left to right */
+  background-image: linear-gradient(to right, #fdddfa, #ffc567); 
+  margin:0;
+  padding:0;
 }
 
 /*  Header  */

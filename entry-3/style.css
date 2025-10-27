@@ -2,6 +2,8 @@
  @import url("https://use.typekit.net/tjw7clx.css");
 body{
   background-image: linear-gradient(to right, #1e7de9, #ff60f2);
+  margin: 0;
+  padding: 0;
 }
 .icon{
   max-width: 100%;
@@ -17,6 +19,7 @@ body{
   padding: 15px 40px;
   height: 100px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin:0;
 }
 
 /*  Buttons (Back / Next / AhBeiBei) */
@@ -60,13 +63,10 @@ body{
   position: absolute;
   bottom: 180px;    
   left: 50%;
-  text-align: center;
 }
 
 .comment input {
-  width: max-content;
-  max-width: 100%;
-  padding: 15px 30px;
+  padding: 15px 40px;
   font-size: 20px;
   font-family: "meursault-variable", sans-serif;
   border: 2px solid rgb(255, 161, 177);
@@ -104,11 +104,13 @@ body{
   display:flex;
   flex-direction: column;
   position:relative;
+  padding:5px 5px;
   background-color:rgb(158, 83, 25);
-  width:100%;
+  width:90%;
   border-radius: 40px;
   justify-content: space-around;
-  right:2px;
+  align-items: center;
+  left:70px;
   bottom:100px;
 }
 .mi{

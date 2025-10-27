@@ -3,7 +3,9 @@
 
 
 body{
-  background-image: linear-gradient(to right, #fdddfa, #ffc567); /* Orange to pink, left to right */
+  background-image: linear-gradient(to right, #fdddfa, #ffc567); 
+  margin: 0;
+  padding: 0;
 }
 
 .house img{
@@ -90,7 +92,6 @@ body{
 }
 
 .entry-text-title:focus {
-  outline-color: lightcoral;
   font-family: 'Space Mono', monospace;
   color: lightcoral;
   font-size: 1rem;
@@ -132,7 +133,6 @@ body{
 
 
 .entry-text-box:focus {
-  outline-color: lightcoral;
   font-family: 'Space Mono', monospace;
   color: lightcoral;
   font-size: 15px;
