@@ -26,7 +26,7 @@ body {
   border-radius: 20px;
   padding: 8px 20px;
   font-size: 24px;
-  transition: background-color 0.2s ease;
+  transition: 0.2s ease;
   border: none;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 /*  (AhBeiBei) */
-.btn.main {
+.btn.main{
   font-family: "coquette-bold", "giulia", sans-serif;
   font-weight: 900;
   background: none;
@@ -49,7 +49,7 @@ body {
   color: rgb(255, 161, 177);
 }
 
-/* Main Image  */
+/* Main Image */
 .container {
   display: flex;
   justify-content: center;
