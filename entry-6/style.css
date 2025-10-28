@@ -48,5 +48,6 @@ body{
 
 .btn.main:hover {
   color: rgb(255, 161, 177);
+  scale:1.2;
 }
 

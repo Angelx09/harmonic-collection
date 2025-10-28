@@ -34,7 +34,7 @@ body{
   border-radius: 20px;
   padding: 8px 20px;
   font-size: 24px;
-  transition: background-color 0.2s ease;
+  transition: 0.2s ease;
   border: none;
 }
 
@@ -50,7 +50,7 @@ body{
   color: rgb(239, 132, 82);
   font-size: 64px;
   padding: 0;
-  transition: color 0.3s ease;
+  transition:  0.3s ease;
 }
 
 .btn.main:hover {
@@ -170,6 +170,7 @@ body{
 
 .button a:hover {
   background-color: #ffc4c4;
+  scale:1.2;
 }
 
 .button img {

@@ -68,16 +68,16 @@ body{
   padding: 15px 40px;
   font-size: 20px;
   font-family: "meursault-variable", sans-serif;
-  border: 2px solid rgb(255, 161, 177);
+  border: 2px solid rgb(141, 51, 12);
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.8);
-  color: rgb(90, 70, 70);
+  color: rgb(230, 172, 248);
   outline: none;
   transition: all 0.3s ease;
 }
 
 .comment input::placeholder {
-  color: rgb(96, 67, 67);
+  color: rgb(178, 139, 225);
   font-style: italic;
 }
 
@@ -111,6 +111,7 @@ body{
   align-items: center;
   left:70px;
   bottom:100px;
+  box-shadow:0 10px 20px#d3c2b3;
 }
 .mi{
   width:60%;
@@ -136,6 +137,8 @@ body{
   margin-right: auto;
 }
 
+/*buttom button*/
+
 .button {
   display: flex;
   justify-content: center;
@@ -153,11 +156,12 @@ body{
   border-radius: 20px;
   padding: 10px 20px;
   font-size: 28px;
-  transition: background-color 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .button a:hover {
   background-color: #ffc4c4;
+  scale:1.2;
 }
 
 .button img {

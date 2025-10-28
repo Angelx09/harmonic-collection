@@ -83,11 +83,12 @@ body {
   border-radius: 20px;
   padding: 10px 20px;
   font-size: 28px;
-  transition: background-color 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .button a:hover {
   background-color: #ffc4c4;
+  scale:1.2;
 }
 
 .button img {

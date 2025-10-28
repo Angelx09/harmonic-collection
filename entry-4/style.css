@@ -21,7 +21,7 @@ body{
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/*  Buttons  */
+/*  Buttons */
 .btn {
   text-decoration: none;
   font-family: "meursault-variable", sans-serif;
@@ -46,7 +46,7 @@ body{
   color: rgb(246, 229, 113);
   font-size: 64px;
   padding: 0;
-  transition: color 0.3s ease;
+  transition:  0.3s ease;
 }
 
 .btn.main:hover {
@@ -97,11 +97,12 @@ body{
   border-radius: 20px;
   padding: 10px 20px;
   font-size: 28px;
-  transition: background-color 0.2s ease;
+  transition:  0.2s ease;
 }
 
 .button a:hover {
   background-color: #ffc4c4;
+  scale:1.2;
 }
 
 .button img {
