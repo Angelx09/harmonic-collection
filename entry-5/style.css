@@ -131,7 +131,6 @@ body{
   font-family: 'Space Mono', monospace;
 }
 
-
 .entry-text-box:focus {
   font-family: 'Space Mono', monospace;
   color: lightcoral;
@@ -143,6 +142,8 @@ body{
   font-family: 'Space Mono', monospace;
   font-size: 15px;
 }
+
+/*button*/
 
 .btn-main:hover{
   background-color: #ffc4c4;
