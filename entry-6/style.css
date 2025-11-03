@@ -4,6 +4,7 @@ body{
   background-image: linear-gradient(to right, #f6b338, #f94825); 
   margin: 0;
   padding: 0;
+  font-family: "meursault-variable", sans-serif;
 }
 
 /*  Header  */
@@ -51,3 +52,29 @@ body{
   scale:1.2;
 }
 
+/*todobox*/
+.to-do{
+  background-color:rgb(190, 246, 246);
+  width:80%;
+  max-width: 900px; 
+  min-height: 1000px;
+  padding:32px;
+  margin-left: 13%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius:16px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note{
+  width:200px;
+  height: 200px;
+  background-color: #e8ffa2;
+  border-radius: 6px;
+  padding:8px;
+  font-weight:600;
+  position:relative;
+  margin:auto;
+}
