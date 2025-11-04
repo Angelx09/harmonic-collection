@@ -87,3 +87,9 @@ body{
   position:relative;
   margin:auto;
 }
+
+@media(min-width:768px){
+  note{
+    flex-direction: row;
+  }
+}
