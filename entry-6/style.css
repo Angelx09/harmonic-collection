@@ -52,13 +52,22 @@ body{
   scale:1.2;
 }
 
+.h1{
+  text-align: center;
+}
+
+@media (min-width:768px){
+  h1{
+    color:#f94825;
+  }
+}
 /*todobox*/
 .to-do{
   background-color:rgb(190, 246, 246);
   width:80%;
   max-width: 900px; 
   min-height: 1000px;
-  padding:32px;
+  padding:22px;
   margin-left: 13%;
   margin-top: 10px;
   margin-bottom: 20px;

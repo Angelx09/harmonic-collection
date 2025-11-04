@@ -143,6 +143,22 @@ body{
   font-size: 15px;
 }
 
+/*box*/
+.past-entries{
+  background-color:rgb(201, 218, 218);
+  width:80%;
+  max-width: 900px; 
+  min-height: 1000px;
+  padding:22px;
+  margin-left: 13%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius:16px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*button*/
 
 .btn-main:hover{

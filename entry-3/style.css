@@ -92,9 +92,6 @@ body{
   text-align: center;
 }
 .comment{
-  position:relative;
-  bottom:4100px;
-  left:1000px;
   width:200px;
 }
 
@@ -109,7 +106,7 @@ body{
   border-radius: 40px;
   justify-content: space-around;
   align-items: center;
-  left:70px;
+  left:35px;
   bottom:100px;
   box-shadow:0 10px 20px#d3c2b3;
 }
