@@ -5,20 +5,22 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  height:100vh;
+  padding:2em;
   max-width: 100%;
   font-family: monospace;
 }
 
-.intro h1{
+.intro{
   color: #fff;
+  max-width: 600px;
   font-size: 15px;
   border-right:0.15em solid rgb(241, 173, 234);
+  white-space: pre-wrap; 
   overflow: hidden; 
-  white-space: nowrap; 
-  width: 0; 
   animation: 
-      typing 3.5s steps(40,end)forwards, 
-      blink-caret 0.5s step-end infinite;
+      typing 10s steps(100,end)forwards, 
+      blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing{
@@ -26,7 +28,7 @@ body{
   to {width: 100%;}
 }
 @keyframes blink-caret {
-  from, to {border:transparent} 
+  from, to {border:transparent;} 
   50% { border-color: rgb(241, 173, 234); }
 }
 
