@@ -1,7 +1,9 @@
 @import url("https://use.typekit.net/tjw7clx.css");
 
+@import url("https://use.typekit.net/lhr5qpe.css");
+
 body{
-  background-image: linear-gradient(to right, #fdddfa, #ffc567); 
+  background-image: linear-gradient(to right, #9ef0ac, #faf392); 
   margin:0;
   padding:0;
 }
@@ -40,7 +42,7 @@ body{
   font-family: "coquette-bold", "giulia", sans-serif;
   font-weight: 900;
   background: none;
-  color: rgb(239, 132, 82);
+  color: rgb(158, 247, 165);
   font-size: 64px;
   padding: 0;
   transition: color 0.3s ease;
@@ -48,4 +50,55 @@ body{
 
 .btn.main:hover {
   color: rgb(255, 161, 177);
+}
+.title{
+  font-family: "superscore-vf", sans-serif;
+  font-size:50px;
+  margin:10px;
+}
+/*photo*/
+.photo{
+  display: grid;
+  gap:20px;
+  width:80%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+.squares{
+  display:flex;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  height:300px;
+  margin:50px;
+}
+.squares:hover{
+  transform: scale(1.05);
+}
+@media(max-width:420px){
+  .top-header{
+    width:310px;
+    height:100px;
+  }
+  .title{
+  font-size:30px;
+  position: absolute;
+  left:20%;
+  right:20%;
+  margin-bottom: 20px;
+  }
+  .btn.main{
+    font-size: 50px;
+  }
+  .btn{
+    font-size: 15px;
+    padding:4px;
+  }
+  .squares{
+    width:90px;
+    height:70px;
+    width:85%;
+    margin:10px 45px;
+  }
 }

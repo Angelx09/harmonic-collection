@@ -151,6 +151,7 @@ body{
   transform:scale (1.1) rotate(0 deg);
   box-shadow: 0 12px 25px rgba(0,0,0,0.3);
 }
+
 @media (max-width:420px){
   .body{
     height:auto;
@@ -163,6 +164,9 @@ body{
   .btn{
     font-size: 15px;
     padding:4px;
+  }
+  .btn.main{
+    font-size: 50px;
   }
   .to-do{
     width:300px;
