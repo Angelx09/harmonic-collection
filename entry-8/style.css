@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/tjw7clx.css");
 
 body{
-  background-image: linear-gradient(to right, #fdddfa, #ffc567); 
+  background-image: linear-gradient(to right, #9cffac, #0f2558); 
   margin:0;
   padding:0;
 }
@@ -40,7 +40,7 @@ body{
   font-family: "coquette-bold", "giulia", sans-serif;
   font-weight: 900;
   background: none;
-  color: rgb(239, 132, 82);
+  color: rgb(15, 11, 71);
   font-size: 64px;
   padding: 0;
   transition: color 0.3s ease;
@@ -48,4 +48,27 @@ body{
 
 .btn.main:hover {
   color: rgb(255, 161, 177);
+}
+
+.book{
+  position:absolute;
+  font-family: Courier, monospace;
+  font-size: 30px;
+  color:#0f2558;
+  padding:10px;
+  margin-left:600px;
+}
+.scroll{
+  position:relative;
+  background-color: rgb(182, 195, 195);
+  max-width: 900px; 
+  min-height: 700px;
+  padding:22px;
+  margin: 50px;
+  border-radius:16px;
+  overflow: hidden;
+  margin-left:250px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
