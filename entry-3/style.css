@@ -95,6 +95,51 @@ body{
   width:200px;
 }
 
+.falling{
+  display:flex;
+  top:2100px;
+  left: 60%;
+  justify-content: center;
+  font-size:20px;
+  font-weight: bold;
+  color:#fff;
+  overflow: hidden;
+  height:100px;
+  position: absolute;
+  padding:10px;
+  z-index: 2;
+}
+.falling-letter{
+  display: inline-block;
+  animation: fall 5s ease-out forwards;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+.falling-letter:nth-child(1){
+  animation-delay: 0s;}
+.falling-letter:nth-child(2){
+  animation-delay: 0.2s;}
+.falling-letter:nth-child(3){
+  animation-delay: 0.3s;}
+.falling-letter:nth-child(4){
+  animation-delay: 0.4s;}
+.falling-letter:nth-child(5){
+  animation-delay: 0.5s;}
+
+@keyframes fall{
+  0%{
+    transform: translateY(-300px) rotateZ(45deg);
+    opacity: 0;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    transform:rotateY(150) rotateZ(0deg);
+    opacity:1;
+  }
+}
+
 
 .table{
   display:flex;

@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/tjw7clx.css");
 
 body{
-  background-image: linear-gradient(to right, #fdddfa, #ffc567); 
+  background-image: linear-gradient(to right, #0f2558, #f6bc33); 
   margin:0;
   padding:0;
 }
@@ -40,7 +40,7 @@ body{
   font-family: "coquette-bold", "giulia", sans-serif;
   font-weight: 900;
   background: none;
-  color: rgb(239, 132, 82);
+  color: rgb(184, 165, 217);
   font-size: 64px;
   padding: 0;
   transition: color 0.3s ease;
@@ -48,4 +48,51 @@ body{
 
 .btn.main:hover {
   color: rgb(255, 161, 177);
+}
+
+.scroll-linear{
+  width:80%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  color:#fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  margin:10px;
+  padding:3px 0;
+  position:relative;
+  margin-left: 10%;
+}
+.text{
+  display: inline-block;
+  padding-right: 100%;
+  animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+.box{
+  width:70%;
+  height: auto;
+  background-color: #1c1167;
+  border-radius: 15px;
+  font-size: 20px;
+  max-width: 900px; 
+  min-height: 800px;
+  padding:22px;
+  margin-left: 18%;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  border-radius:16px;
+  border:2px solid#fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }

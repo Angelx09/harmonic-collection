@@ -54,21 +54,70 @@ body{
   position:absolute;
   font-family: Courier, monospace;
   font-size: 30px;
+  text-align: center;
   color:#0f2558;
   padding:10px;
   margin-left:600px;
 }
 .scroll{
-  position:relative;
-  background-color: rgb(182, 195, 195);
-  max-width: 900px; 
-  min-height: 700px;
-  padding:22px;
-  margin: 50px;
-  border-radius:16px;
-  overflow: hidden;
-  margin-left:250px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+ position:relative; 
+ background-color: rgb(182, 195, 195); 
+ max-width: 900px; 
+ max-height: 500px; 
+ padding:40px; 
+ margin: 50px; 
+ border-radius:16px; 
+ overflow: hidden; 
+ margin-left:270px; 
+ justify-content: center; 
+ align-items: center; 
+ position: relative;
 }
+
+.text-scroll{
+  max-width: 900px; 
+  max-height: 500px; 
+  overflow: hidden; 
+  padding: 40px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  color: #f8f8f8;
+  line-height: 1.8em;
+  position: relative;
+}
+
+.text-scroll p{
+  margin-bottom: 10px;
+}
+.text-scroll-inner{
+  position: relative;
+  padding-right: 20px;
+  animation: scrollUp 50s linear infinite;
+}
+@keyframes scrollUp{
+  0%{
+    transform: translateY(100%)%;
+  }
+  100%{
+    transform: translateY(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .text-scroll {
+    width: 90%;
+    font-size: 0.95em;
+  }
+
+  .book {
+    font-size: 2em;
+  }
+}
+.text-scroll:hover .text-scroll-inner {
+  animation-play-state: paused;
+}
+
+
+

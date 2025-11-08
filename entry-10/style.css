@@ -1,7 +1,9 @@
 @import url("https://use.typekit.net/tjw7clx.css");
 
 body{
-  background-image: linear-gradient(to right, #fdddfa, #ffc567); /* Orange to pink, left to right */
+  background-image: linear-gradient(to right, #ffffff, #000000);
+  margin:0;
+  padding:0;
 }
 
 /*  Header  */
@@ -38,7 +40,7 @@ body{
   font-family: "coquette-bold", "giulia", sans-serif;
   font-weight: 900;
   background: none;
-  color: rgb(239, 132, 82);
+  color: rgb(0, 0, 0);
   font-size: 64px;
   padding: 0;
   transition: color 0.3s ease;
