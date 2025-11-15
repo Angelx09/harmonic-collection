@@ -92,7 +92,7 @@ body{
 .note:nth-child(1){
   background:#ffc4c4;
   top:200px;
-  left:850px;
+  left:650px;
   transform: rotate(-5deg);
   flex-shrink: 0;
 }
@@ -126,8 +126,8 @@ body{
 }
 .note:nth-child(6){
   background:#c69fc7;
-  bottom:100px;
-  right:150px;
+  bottom:200px;
+  right:350px;
   transform: rotate(8deg);
   flex-shrink: 0;
 }
@@ -141,7 +141,7 @@ body{
 .note:nth-child(8){
   background:#af37b7;
   top:150px;
-  right:410px;
+  right:610px;
   transform: rotate(5deg);
   flex-shrink: 0;
 }

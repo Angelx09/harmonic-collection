@@ -108,11 +108,11 @@ body{
   display:flex;
   animation: float 5s infinite linear;
   top:200px;
-  left:400px;
+  left:500px;
 }
-.s1 { top: 230px; left: 20px; animation-duration: 4s; }
-.s2 { top: 260px; left: 220px; animation-duration: 6s; }
-.s3 { top: 310px; left: 140px; animation-duration: 5s; }
+.s1 { top: 200px; left: 10px; animation-duration: 5s; }
+.s2 { top: 260px; left: 240px; animation-duration: 7s; }
+.s3 { top: 320px; left: 120px; animation-duration: 6s; }
 
 
 @keyframes float {
