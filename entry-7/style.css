@@ -79,7 +79,7 @@ body{
   margin:100px;
 }
 .squares:hover{
-  transform: scale(1.05);
+  transform:scale(1.05);
 }
 @media(max-width:420px){
   .top-header{
