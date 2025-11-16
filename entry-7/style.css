@@ -55,7 +55,7 @@ body{
   position:absolute;
   font-family: "superscore-vf", sans-serif;
   font-size:50px;
-  margin-left:540px;
+  margin-left:555px;
   padding:20px;
   justify-content: center;
   align-items: center;
@@ -68,19 +68,46 @@ body{
   width:80%;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(3,1fr);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left:145px;
 }
 .squares{
   display:flex;
   background-color: aliceblue;
   justify-content: center;
   align-items: center;
-  width:260px;
+  width:400px;
   height:260px;
-  margin:100px;
+  margin:10 10;
+}
+.squares img{
+  width:100%
+  object-fit: cover;
 }
 .squares:hover{
   transform:scale(1.05);
 }
+
+.squares::after {
+  content: attr(data-label);
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+/* Hover effect */
+.squares:hover::after {
+  opacity: 1;
+}
+
 @media(max-width:420px){
   .top-header{
     width:310px;
@@ -89,7 +116,6 @@ body{
   .title{
   font-size:30px;
   position: absolute;
-  left:20%;
   right:20%;
   margin-bottom: 20px;
   }
@@ -102,8 +128,9 @@ body{
   }
   .squares{
     width:90px;
-    height:70px;
+    height:90px;
     width:85%;
     margin:10px 45px;
   }
 }
+
