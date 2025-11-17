@@ -6,6 +6,8 @@ body{
   background-image: linear-gradient(to right, #9ef0ac, #faf392); 
   margin:0;
   padding:0;
+  font-family: "meursault-variable", sans-serif;
+  height:100vh;
 }
 
 /*  Header  */
@@ -70,7 +72,7 @@ body{
   grid-template-rows: repeat(3,1fr);
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-left:145px;
+  margin-left:115px;
 }
 .squares {
   display:flex;
@@ -106,34 +108,49 @@ body{
   pointer-events: none;
 }
 
-/* Hover effect */
 .squares:hover::after {
   opacity: 1;
 }
 
-@media(max-width:420px){
+  @media (max-width: 900px) {
+  .photo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .body{
+    height:auto;
+    padding: 1rem 0;
+  }
   .top-header{
     width:310px;
     height:100px;
-  }
-  .title{
-  font-size:30px;
-  position: absolute;
-  right:20%;
-  margin-bottom: 20px;
-  }
-  .btn.main{
-    font-size: 50px;
   }
   .btn{
     font-size: 15px;
     padding:4px;
   }
+  .btn.main{
+    font-size: 50px;
+  }
+  .photo {
+    grid-template-columns: repeat(1, 1fr);  /* one per row */
+    width: 80%;
+    margin-left: 0.5px;
+  }
   .squares{
-    width:90px;
-    height:90px;
-    width:85%;
-    margin:10px 45px;
+    width:365px;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); /* even smaller on mobile */
+    gap: 10px;}
+  .squares::after {
+    font-size: 16px;
+  }
+  .title{
+    font-size: 30px;
+    margin-left: 60px;
   }
 }
+
 
