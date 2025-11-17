@@ -78,6 +78,8 @@ body{
   }
 }
 
+
+
 .box{
   width:70%;
   height: auto;
@@ -97,18 +99,51 @@ body{
 }
 .tap-start{
   color:#fff;
+  opacity: 0.5;
   text-align: center;
   position:relative;
-  bottom:150px;
+  bottom:400px;
   left:70px;
+  z-index: 2;
 }
 .stars{
-  width: 30px;
   position: absolute;
   display:flex;
   animation: float 5s infinite linear;
   top:200px;
   left:500px;
+}
+.star1{
+  position: absolute;
+  margin-left: 2px;
+  width:40px;
+}
+.star2{
+  position: absolute;
+  margin-left: 300px;
+  width:50px;
+}
+.star3{
+  position: absolute;
+  margin-left: 100px;
+  width:100px;
+}
+.star4{
+  position: absolute;
+  margin-left: 400px;
+  width:90px;
+}
+.star5{
+  position: absolute;
+  margin-left: 250px;
+  top:100px;
+  width:40px;
+}
+.star6{
+  position: absolute;
+  margin-left:10px;
+  width:50px;
+  top:100px;
 }
 .s1 { top: 200px; left: 10px; animation-duration: 5s; }
 .s2 { top: 260px; left: 240px; animation-duration: 7s; }
@@ -153,4 +188,47 @@ body{
   z-index:1;
   align-items: center;
   right:50px;
+}
+.scoreBox {
+    margin-top: 15px;
+    font-size: 24px;
+    text-align:center;
+  }
+
+@media (max-width:420px){
+  .body{
+    height:auto;
+    padding: 1rem 0;
+  }
+  .top-header{
+    width:310px;
+    height:100px;
+  }
+  .btn{
+    font-size: 15px;
+    padding:4px;
+  }
+  .btn.main{
+    font-size: 50px;
+  }
+}
+.player.jump {
+  animation: jumpUp 0.6s ease-out;
+}
+
+@keyframes jumpUp {
+  0% { transform: translateY(0); }
+  40% { transform: translateY(-140px); }
+  60% { transform: translateY(-140px); }
+  100% { transform: translateY(0); }
+}
+
+/* Sheep styling + start position */
+.sheep {
+  width: 90px;
+  height: 60px;
+  background: url("img/Group\ 25.svg") no-repeat center/contain;
+  position: absolute;
+  bottom: 120px;
+  left: 600px;
 }

@@ -107,17 +107,51 @@ body{
 
 @media (max-width: 768px) {
   .text-scroll {
-    width: 90%;
+    width: 80%;
     font-size: 0.95em;
   }
 
   .book {
     font-size: 2em;
+    color: aliceblue;
   }
 }
 .text-scroll:hover .text-scroll-inner {
   animation-play-state: paused;
 }
 
+@media (max-width:420px){
+  .body{
+    height:auto;
+    padding: 1rem 0;
+  }
+  .top-header{
+    width:310px;
+    height:100px;
+  }
+  .btn{
+    font-size: 15px;
+    padding:4px;
+  }
+  .btn.main{
+    font-size: 50px;
+  }
+  .book{
+    font-size: 20px;
+    margin-left: 80px;
+  }
 
+  .scroll {
+    width: 80%;
+    padding: 20px;
+    height: 600px;      /* smaller box */
+    margin: 20px auto;
+    margin-top: 60px;
+  }
+
+  .text-scroll {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+}
 
