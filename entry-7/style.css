@@ -72,38 +72,38 @@ body{
   margin-bottom: 100px;
   margin-left:145px;
 }
-.squares{
+.squares {
   display:flex;
-  background-color: aliceblue;
-  justify-content: center;
+  justify-content:center;
+  align-items:center;
   position:relative;
-  align-items: center;
   overflow:hidden;
   width:400px;
   height:260px;
-  margin:10 10;
+  margin:0 10px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.squares img{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.squares:hover{
-  transform:scale(1.05);
+
+.squares:hover {
+  transform: scale(1.05);
 }
 
 .squares::after {
   content: attr(data-label);
-  position: relative;
+  position: absolute;      /* FIXED */
   inset: 0;
-  background: rgba(255, 226, 226, 0.55);
+  background: rgba(251, 122, 122, 0.55);
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 20px;
   opacity: 0;
   transition: 0.4s ease;
+  pointer-events: none;
 }
 
 /* Hover effect */
