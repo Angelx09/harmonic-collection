@@ -32,9 +32,6 @@
               <img src="img/Star 25.png" class="star6">
               <img src="img/Star 26.png" class="star4">
             </div>
-            <div class="sheep" id="sheep1"></div>
-            <div class="sheep" id="sheep2"></div>
-            <div class="sheep" id="sheep3"></div>
         </div>
 
             <div class="ground">
@@ -47,51 +44,28 @@
     <script>
 let player = document.getElementById("player");
 let sheep1 = document.getElementById("sheep1");
-let sheep2 = document.getElementById("sheep2");
-let sheep3 = document.getElementById("sheep3");
 
 let jumping = false;
 let score = 0;
+
 
 function jump() {
   if (jumping) return;
   jumping = true;
   player.classList.add("jump");
-
-  setTimeout(() => {
-    player.classList.remove("jump");
-    jumping = false;
-  }, 600);
 }
 
-// Sheep movement loop
-function moveSheep(sheep) {
-  let pos = 600; // start from right
+/* CONTROL START, END, SPEED */
+function moveSheep(sheep, startX, endX, speed) {
+  let pos = startX;
 
   function step() {
-    pos -= 4;     // speed
+    pos -= speed;
     sheep.style.left = pos + "px";
 
-    // reset sheep when it exits screen
-    if (pos < -100) pos = 600;
-
-    // collision check
-    let p = player.getBoundingClientRect();
-    let s = sheep.getBoundingClientRect();
-
-    let overlap =
-      p.left < s.right &&
-      p.right > s.left &&
-      p.bottom > s.top &&
-      p.top < s.bottom;
-
-    if (overlap) {
-      score++;
-      sheep.style.display = "none";
-      setTimeout(() => {
-        sheep.style.display = "block";
-        pos = 600;
-      }, 500);
+    // reset when reaching left side
+    if (pos < endX) {
+      pos = startX;
     }
 
     requestAnimationFrame(step);
@@ -99,9 +73,7 @@ function moveSheep(sheep) {
   step();
 }
 
-moveSheep(sheep1);
-moveSheep(sheep2);
-moveSheep(sheep3);
+moveSheep(sheep1, 600, -120, 3);
 </script>
 
 
