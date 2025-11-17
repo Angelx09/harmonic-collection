@@ -111,7 +111,7 @@ body{
   display:flex;
   animation: float 5s infinite linear;
   top:200px;
-  left:500px;
+  left:400px;
 }
 .star1{
   position: absolute;
@@ -189,12 +189,27 @@ body{
   align-items: center;
   right:50px;
 }
-.scoreBox {
-    margin-top: 15px;
+.score-count {
+    position: absolute;
+    width:120px;
+    height:120px;
+    color:#f6bc33;
+    margin-left: 100px;
     font-size: 24px;
+    font-family:"coquette-bold", "giulia", sans-serif;
     text-align:center;
+    border-radius: 10px;
+    top:350px;
+    background-color: #fff;
   }
-
+  .sheep{
+    position: absolute;
+    margin-bottom:420px; 
+    margin-left: 200px;
+    width: 90px;
+    height: 60px;
+    background: url("img/Group\ 25.svg") no-repeat center/contain;
+  }
 @media (max-width:420px){
   .body{
     height:auto;
@@ -221,14 +236,4 @@ body{
   40% { transform: translateY(-140px); }
   60% { transform: translateY(-140px); }
   100% { transform: translateY(0); }
-}
-
-/* Sheep styling + start position */
-.sheep {
-  width: 90px;
-  height: 60px;
-  background: url("img/Group\ 25.svg") no-repeat center/contain;
-  position: absolute;
-  bottom: 120px;
-  left: 600px;
 }
