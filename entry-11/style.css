@@ -1,0 +1,50 @@
+@import url("https://use.typekit.net/tjw7clx.css");
+@import url("https://use.typekit.net/lhr5qpe.css");
+
+body{
+  background-color:rgb(0, 0, 0);
+  margin:0;
+  padding:0;
+}
+
+/*  Header  */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(249, 244, 223);
+  padding: 15px 40px;
+  height: 100px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.btn {
+  text-decoration: none;
+  font-family: "meursault-variable", sans-serif;
+  background: rgb(255, 215, 222);
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 24px;
+  transition: background-color 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffc4c4;
+}
+
+/*  (AhBeiBei) */
+.btn.main {
+  font-family: "coquette-bold", "giulia", sans-serif;
+  font-weight: 900;
+  background: none;
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.btn.main:hover {
+  color: rgb(255, 215, 222);
+}
