@@ -5,6 +5,29 @@ body{
   background-color:rgb(0, 0, 0);
   margin:0;
   padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro{
+  color: #fff;
+  max-width: 600px;
+  font-size: 15px;
+  border-right:0.15em solid rgb(241, 173, 234);
+  white-space: pre-wrap; 
+  overflow: hidden; 
+  animation: 
+      typing 10s steps(100,end)forwards, 
+      blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing{
+  from{ width: 0;}
+  to {width: 100%;}
+}
+@keyframes blink-caret {
+  from, to {border:transparent;} 
+  50% { border-color: rgb(241, 173, 234); }
 }
 
 /*  Header  */
