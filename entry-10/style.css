@@ -2,7 +2,7 @@
 @import url("https://use.typekit.net/lhr5qpe.css");
 
 body{
-  background-image: linear-gradient(to right, #ffffff, #ffd9f6);
+  background-image: linear-gradient(to right, #ffffff, #340ec9);
   margin:0;
   padding:0;
 }
@@ -12,7 +12,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(249, 244, 223);
+  background-color: rgb(94, 145, 220);
   padding: 15px 40px;
   height: 100px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -20,7 +20,7 @@ body{
 .btn {
   text-decoration: none;
   font-family: "meursault-variable", sans-serif;
-  background: rgb(255, 215, 222);
+  background: rgb(135, 237, 255);
   color: #fff;
   border-radius: 20px;
   padding: 8px 20px;
@@ -52,9 +52,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 0px;
   font-family: "grandma", sans-serif;
-  font-weight: 20px;
 }
 
 /* Envelope body */
@@ -62,11 +61,11 @@ body{
   position: relative;
   width: 400px;
   height: 280px;
-  background: #ffb9ee;
-  border: 2px solid #ffb5e2;
+  background: #3b9dee;
+  border: 2px solid #0d5a8a;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 4px 20px#dba5fe;
+  box-shadow: 0 4px 20px#22236c;
 }
 
 .flap {
@@ -75,7 +74,7 @@ body{
   left: 0;
   width: 100%;
   height: 150px;
-  background: #f793de;
+  background: #0186ec;
   clip-path: polygon(0 0, 100% 0, 50% 100%);
   transform-origin: top;
   transition: transform 0.6s ease;
@@ -106,7 +105,7 @@ body{
   margin: 0 8px;
   border: none;
   border-radius: 6px;
-  background: #ffb3c6;
+  background: #69a2ed;
   cursor: pointer;
   font-size: 16px;
   transition: 0.2s;
@@ -114,7 +113,7 @@ body{
 }
 
 .controls button:hover {
-  background: #ff8aa3;
+  background: #69a2ed;
 }
 
 .envelope.open .flap {
@@ -124,5 +123,10 @@ body{
 .envelope.open .letter {
   transform: translateY(0);
 }
-
+.backdrop img{
+  position:relative;
+  height:auto;
+  width:300px;
+  margin: 20px auto;
+}
 

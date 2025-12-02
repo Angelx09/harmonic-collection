@@ -55,7 +55,7 @@ function jump() {
   player.classList.add("jump");
 }
 
-/* CONTROL START, END, SPEED */
+
 function moveSheep(sheep, startX, endX, speed) {
   let pos = startX;
 
@@ -63,7 +63,6 @@ function moveSheep(sheep, startX, endX, speed) {
     pos -= speed;
     sheep.style.left = pos + "px";
 
-    // reset when reaching left side
     if (pos < endX) {
       pos = startX;
     }
