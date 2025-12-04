@@ -147,7 +147,7 @@ body{
 }
 .note:hover{
   z-index:100;
-  transform:scale (1.1) rotate(0 deg);
+  transform:scale(1.1) rotate(0 deg);
   box-shadow: 0 12px 25px rgba(0,0,0,0.3);
 }
 
@@ -169,7 +169,7 @@ body{
   }
   .to-do{
     width:300px;
-    height:500px;
+    min-height:550px;
     margin-left:25px;
     margin-bottom:20px;
   }
@@ -180,11 +180,12 @@ body{
     font-size:10px;
     color: #ff3313;
   }
-  .note:nth-child(4){
-    left:10px;
-  }
-  .note:nth-child(5){
-    left:20px;
-  }
-
+  .note:nth-child(1){ top:20px; left:35%; transform:rotate(-8deg); }
+  .note:nth-child(2){ top:80px; left:10%; transform:rotate(12deg); }
+  .note:nth-child(3){ top:140px; left:55%; transform:rotate(4deg); }
+  .note:nth-child(4){ top:200px; left:20%; transform:rotate(-5deg); }
+  .note:nth-child(5){ top:260px; left:40%; transform:rotate(9deg); }
+  .note:nth-child(6){ top:320px; left:5%; transform:rotate(7deg); }
+  .note:nth-child(7){ top:380px; left:50%; transform:rotate(-6deg); }
+  .note:nth-child(8){ top:440px; left:25%; transform:rotate(11deg); }
 }
