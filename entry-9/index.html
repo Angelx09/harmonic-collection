@@ -67,10 +67,9 @@
       sheep.style.left = pos + "px";
 
       function move() {
-        pos -= 2; // speed of sheep
+        pos -= 2; 
         sheep.style.left = pos + "px";
 
-        // Player and sheep collision
         const playerRect = player.getBoundingClientRect();
         const sheepRect = sheep.getBoundingClientRect();
 
@@ -86,7 +85,6 @@
           return;
         }
 
-        // Remove sheep if it goes out of box
         if (pos + sheep.offsetWidth > 0) {
           requestAnimationFrame(move);
         } else {
@@ -97,7 +95,7 @@
       move();
     }
 
-    // spawn sheep every 2 seconds
+   
     setInterval(spawnSheep, 2000);
     </script>
 
