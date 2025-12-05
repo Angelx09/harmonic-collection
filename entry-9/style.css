@@ -269,10 +269,10 @@ body{
   .ground {
     position: absolute;
     width: 88%;
-    left: 5%;
+    left: 7%;
     top: auto;
     height: 120px;
-    bottom: 280px;
+    bottom: 120px;
   }
 
   .jump-btn {
