@@ -22,7 +22,7 @@
     <section class="game-container">
         <div class="box">
           <div></div>
-          <div class="tap-start">Tap to Play</div>
+          <div class="tap-start">Tap "JUMP" to Start</div>
           <img src="img/beibei.svg" class="player" id="player">
             <div class="stars">
               <img src="img/Star 23.png" class="star1">
@@ -32,49 +32,74 @@
               <img src="img/Star 25.png" class="star6">
               <img src="img/Star 26.png" class="star4">
             </div>
+          <div id="sheep1" class="sheep1"></div>
         </div>
 
-            <div class="ground">
-              <button class="jump-btn" onclick="jump()">JUMP!</button>
-            </div>
-            <div class="score-count">Count:
-            </div>
+        <div class="ground">
+          <button class="jump-btn" onclick="jump()">JUMP!</button>
+        </div>
+        <div class="score-count">Count: 0 </div>
+
     </section>
 
     <script>
-      
-      let player = document.getElementById("player");
-      let sheep1 = document.getElementById("sheep1");
+    const player = document.getElementById("player");
+    const box = document.querySelector(".box");
+    const scoreEl = document.querySelector(".score-count");
+    let score = 0;
+    let jumping = false;
 
-      let jumping = false;
-      let score = 0;
-
-
-      function jump() {
+    function jump() {
       if (jumping) return;
       jumping = true;
       player.classList.add("jump");
-      }
+      setTimeout(() => {
+        player.classList.remove("jump");
+        jumping = false;
+      }, 600);
+    }
 
-
-      function moveSheep(sheep, startX, endX, speed) {
-      let pos = startX;
-
-      function step() {
-      pos -= speed;
+    function spawnSheep() {
+      const sheep = document.createElement("div");
+      sheep.classList.add("sheep1");
+      box.appendChild(sheep);
+      let pos = box.offsetWidth;
       sheep.style.left = pos + "px";
 
-      if (pos < endX) {
-      pos = startX;
+      function move() {
+        pos -= 2; // speed of sheep
+        sheep.style.left = pos + "px";
+
+        // Player and sheep collision
+        const playerRect = player.getBoundingClientRect();
+        const sheepRect = sheep.getBoundingClientRect();
+
+        if (
+          playerRect.left < sheepRect.right &&
+          playerRect.right > sheepRect.left &&
+          playerRect.top < sheepRect.bottom &&
+          playerRect.bottom > sheepRect.top
+        ) {
+          score++;
+          scoreEl.textContent = "Count: " + score;
+          sheep.remove();
+          return;
+        }
+
+        // Remove sheep if it goes out of box
+        if (pos + sheep.offsetWidth > 0) {
+          requestAnimationFrame(move);
+        } else {
+          sheep.remove();
+        }
       }
 
-      requestAnimationFrame(step);
-      }
-      step();
-      }
+      move();
+    }
 
-      moveSheep(sheep1, 600, -120, 3);
-      </script>
+    // spawn sheep every 2 seconds
+    setInterval(spawnSheep, 2000);
+    </script>
 
 
   </body>  
