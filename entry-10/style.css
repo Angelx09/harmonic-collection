@@ -55,6 +55,23 @@ body{
   margin-top: 0px;
   font-family: "grandma", sans-serif;
 }
+.env-bear-wrapper {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  gap: 0;
+  width: 100%;   
+  padding-left: 0;              
+  margin-top: 40px;
+}
+
+.backdrop img {
+  width: 280px;
+  height: auto;
+  padding:0;
+  margin:0;
+}
+
 
 /* Envelope body */
 .envelope {
@@ -66,6 +83,7 @@ body{
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 4px 20px#22236c;
+  margin-left: 90px;
 }
 
 .flap {
@@ -127,6 +145,15 @@ body{
   position:relative;
   height:auto;
   width:300px;
-  margin: 20px auto;
+  margin: 0;
+  padding:0;
 }
 
+@media (min-width: 1024px) {
+  .envelope {
+    margin-left: 250px; 
+  }
+  .controls {
+    margin-left: 250px;
+  }
+}

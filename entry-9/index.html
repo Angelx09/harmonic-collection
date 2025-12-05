@@ -42,38 +42,39 @@
     </section>
 
     <script>
-let player = document.getElementById("player");
-let sheep1 = document.getElementById("sheep1");
+      
+      let player = document.getElementById("player");
+      let sheep1 = document.getElementById("sheep1");
 
-let jumping = false;
-let score = 0;
-
-
-function jump() {
-  if (jumping) return;
-  jumping = true;
-  player.classList.add("jump");
-}
+      let jumping = false;
+      let score = 0;
 
 
-function moveSheep(sheep, startX, endX, speed) {
-  let pos = startX;
+      function jump() {
+      if (jumping) return;
+      jumping = true;
+      player.classList.add("jump");
+      }
 
-  function step() {
-    pos -= speed;
-    sheep.style.left = pos + "px";
 
-    if (pos < endX) {
+      function moveSheep(sheep, startX, endX, speed) {
+      let pos = startX;
+
+      function step() {
+      pos -= speed;
+      sheep.style.left = pos + "px";
+
+      if (pos < endX) {
       pos = startX;
-    }
+      }
 
-    requestAnimationFrame(step);
-  }
-  step();
-}
+      requestAnimationFrame(step);
+      }
+      step();
+      }
 
-moveSheep(sheep1, 600, -120, 3);
-</script>
+      moveSheep(sheep1, 600, -120, 3);
+      </script>
 
 
   </body>  
