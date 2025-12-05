@@ -83,7 +83,6 @@ body{
   width:400px;
   height:260px;
   margin:0 10px;
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,10 +111,9 @@ body{
   opacity: 1;
 }
 
-  @media (max-width: 900px) {
-  .photo {
-    grid-template-columns: repeat(2, 1fr);
-  }
+@media (max-width: 900px) {
+.photo {
+    grid-template-columns: repeat(2, 1fr);}
 }
 @media (max-width: 500px) {
   .body{
