@@ -268,9 +268,9 @@ body{
 
   .ground {
     position: absolute;
-    width: 88%;
-    left: 7%;
-    top: auto;
+    width: 89%;
+    left: 5%;
+    top: 54%;
     height: 120px;
     bottom: 120px;
   }

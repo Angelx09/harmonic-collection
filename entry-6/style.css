@@ -5,7 +5,6 @@ body{
   margin: 0;
   padding: 0;
   font-family: "meursault-variable", sans-serif;
-  height:100vh;
 }
 
 /*  Header  */
@@ -157,7 +156,7 @@ body{
     padding: 1rem 0;
   }
   .top-header{
-    width:310px;
+    width:320px;
     height:100px;
   }
   .btn{

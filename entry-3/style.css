@@ -207,3 +207,33 @@ body{
   width: 28px;
   height: auto;
 }
+
+@media (max-width:420px){
+  .body{
+    height:auto;
+    padding: 1rem 0;
+  }
+  .top-header{
+    width:320px;
+    height:100px;
+  }
+  .btn{
+    font-size: 15px;
+    padding:4px;
+  }
+  .btn.main{
+    font-size: 50px;
+  }
+  .backdrop img{
+  position:relative;
+  height:auto;
+  width:200px;
+  margin: 20px auto;
+  }
+  .comment{
+  position: absolute;
+  width:90px;
+  top: 400px;    
+  left: 60%;
+  }
+}
